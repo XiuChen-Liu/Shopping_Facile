@@ -1,0 +1,39 @@
+.margintop{
+	margin-top: 150px;
+}
+.title01{
+	font-family: "微軟正黑體";
+}
+.hr01{
+	border-width: 3px;
+	background-color: #e0e0e0; 
+}
+.button{
+	margin-left: auto;
+	display: block;
+	background-color: #e0e0e0;
+	color: black;
+	font-weight: bold;
+	width: 200px;
+	height: 50px;
+}
+.font01{
+	color: gray;
+}
+.font02{
+	color: gray;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	line-height:40px;
+}
+.tdWidth{
+	width: 220px;
+}
+.imgSize
+{
+	width: 100px;
+	height: 100px;
+}
+input[type=checkbox] {
+    zoom: 1.6;
+}

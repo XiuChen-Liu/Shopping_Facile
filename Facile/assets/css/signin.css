@@ -1,0 +1,26 @@
+.margintop{
+	margin-top:150px;
+}
+.title{
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center;
+}
+.title1{
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: "微軟正黑體";
+}
+.buttonbg{
+	background-color: #E0E0E0;
+}
+.font1{
+	color: black;
+	font-family: "微軟正黑體";
+	font-weight: bold;
+}
+.font2{
+	color: black;
+	font-family: "微軟正黑體";
+}

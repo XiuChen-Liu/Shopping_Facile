@@ -1,0 +1,30 @@
+.product_card {
+	width:450px;
+	height:450px;
+	padding:10px;
+	border:2px solid;
+	float:left;
+	margin:15px 15px 15px 120px;
+}
+.product_card img{
+        margin:5px 5px 5px 85px;
+	width:250px;
+	height:250px;
+       align:center;
+}
+.product_card a{
+	padding:5px 20px;
+	background-color: #77DDFF;
+	border: 2px solid #FFE076;
+	border-radius:10px;
+	font-size:20px;
+	text-decoration:none;
+}
+.product_card a:hover {
+	background:#FFFF00;
+}
+.product_card_text{
+	text-align:center;
+	font-size:24px;
+	font-family: "微軟正黑體";
+}

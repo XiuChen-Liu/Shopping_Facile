@@ -1,0 +1,21 @@
+.margintop{
+	margin-top: 150px;
+}
+.title01{
+	font-family: "微軟正黑體";
+}
+.hr01{
+	border-width: 3px;
+	background-color:#E0E0E0; 
+}
+.bg{
+	border: solid gray 2px;
+
+}
+.font01{
+	text-align: center;
+	padding: 20px 0px;
+}
+.veryheight{
+	height:250px;
+}

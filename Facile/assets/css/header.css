@@ -1,0 +1,10 @@
+header div nav img{
+	width: 180px;
+}
+.font1{
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+}
+header li{
+	margin:0px 10px;
+}

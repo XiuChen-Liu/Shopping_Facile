@@ -1,0 +1,44 @@
+.abouttitle{
+	font-family: "微軟正黑體";
+	font-size: 36px;
+	text-align: center;
+}
+.aboutfont{
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	text-align: center;
+}
+.margintop{
+	margin-top: 100px;
+}
+.wordtitle{
+	padding: 30px 0px 30px 20px;
+}
+.font01{
+	font-size: 20px;
+	padding: 0px 30px 30px 30px;
+}
+.imgsize{
+	width: 300px;
+	height:300px;
+}
+.img{
+	width: 250px;
+	height: 250px;
+}
+.img2{
+	width: 30px;
+	height: 30px;
+}
+.name{
+	font-weight: bold;
+	font-size: 25px;
+}
+.button{
+	background-color:#E0E0E0;
+	color: black;
+	font-weight: bolder; 
+}
+.pdl{
+	margin-left: 470px;
+}

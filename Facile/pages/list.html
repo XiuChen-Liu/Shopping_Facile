@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<title>消費紀錄</title>
+		<style>
+			@import"../assets/css/header.css";
+			@import"../assets/css/ad.css";
+			@import"../assets/css/newarr.css";
+			@import"../assets/css/coupon.css";
+			@import"../assets/css/footer.css";
+			@import"../assets/css/signin.css";
+			@import"../assets/css/member.css";
+			@import"../assets/css/about.css";
+			@import"../assets/css/list1.css";
+		</style>
+	</head>
+	<body>
+		<header>
+			<div>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+					<a class="navbar-brand" href="../index.html"><img src="../assets/img/logo/logo.png" alt="logo"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="header">
+						<ul class="navbar-nav font1">
+							
+							<li class="nav-item">
+								<a class="nav-link" href="../pages/signin.html">登入</a>
+							</li>
+						</ul>
+						
+					</div>
+				</nav>
+			</div>
+		</header>
+		<section>
+			 <div class="container">
+      <div class="row margintop">
+        <!--檢視訂單-->
+        <div class="col-xl-12">
+          <div>
+            <h1>檢視訂單</h1>
+            <hr style="border-width: 3px;border-color: #E0E0E0;">
+            <div style="margin: 15px 0px;">
+              <input style="width:80%;border-color: black;" type="text" placeholder="請輸入會員名稱">
+              <input class="padding0 searchInput" type="button" value="搜尋">
+            </div>
+            <table class="text-center"  border="1">
+              <tr>
+                <td class="tdWidth"><h3>購買者</h3></td>
+                <td class="tdWidth"><h3>商品名稱</h3></td>
+                <td class="tdWidth"><h3>價格</h3></td>
+                <td class="tdWidth"><h3>數量</h3></td>
+                <td class="tdWidth"><h3>時間</h3></td>
+              </tr>
+              <tr>
+                <td class="tdWidth">aaa@gmail.com</td>
+                <td class="tdWidth">時尚長褲(綠)</td>
+                <td class="tdWidth">NT999</td>
+                <td class="tdWidth">1</td>
+                <td class="tdWidth">2019-10-15-19:30</td>
+              </tr>
+              <tr>
+                <td class="tdWidth">bbb@gmail.com</td>
+                <td class="tdWidth">時尚長褲(米)</td>
+                <td class="tdWidth">NT999</td>
+                <td class="tdWidth">1</td>
+                <td class="tdWidth">2019-11-12-20:30</td>
+              </tr>	
+              <tr>
+                <td class="tdWidth">ccc@gmail.com</td>
+                <td class="tdWidth">時尚長褲(藍)</td>
+                <td class="tdWidth">NT999</td>
+                <td class="tdWidth">1</td>
+                <td class="tdWidth">2019-11-12-20:30</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="col-xl-12" style="margin-top: 50px;">
+          <h1>會員管理</h1>
+          <hr style="border-width: 3px;border-color: #E0E0E0;">
+          <div style="margin: 15px 0px;">
+            <input style="width:80%;border-color: black;" type="text" placeholder="請輸入會員名稱">
+            <input class="padding0 searchInput" type="button" value="搜尋">
+          </div>
+          <table class="text-center" border="1">
+            <tr>
+              <td class="tdWidth"><h3>會員名稱</h3></td>
+              <td class="tdWidth"><h3>密碼</h3></td>
+              <td class="tdWidth"><h3>電話</h3></td>
+              <td class="tdWidth"><h3>Emial</h3></td>
+              <td class="tdWidth"><h3>地址</h3></td>
+            </tr>
+            <tr>
+              <td class="tdWidth">官方帳號</td>
+              <td class="tdWidth">1234</td>
+              <td class="tdWidth">0912345678</td>
+              <td class="tdWidth">facile@gmail.com</td>
+              <td class="tdWidth">台北市</td>
+            </tr>
+          </table>
+        </div>
+        <!--庫存管理-->
+        <div class="col-xl-12" style="margin-top: 50px;">
+          <h1>庫存管理 <a href="#addproduct"><font style="font-size: 15px; color:gray;">新增商品</font></a></h1>
+          <hr style="border-width: 3px;border-color: #E0E0E0;">
+          <div style="margin: 15px 0px;">
+            <input style="width:80%;border-color: black;" type="text" placeholder="請輸入商品名稱">
+            <input class="padding0 searchInput" type="button" value="搜尋">
+          </div>
+          <table class="text-center"  border="1" style="margin-top: 50px;">
+            <tr>
+              <td class="tdWidth"><h3>商品名稱</h3></td>
+              <td class="tdWidth"><h3>價格</h3></td>
+              <td class="tdWidth"><h3>庫存</h3></td>
+              <td class="tdWidth"><h3>備註</h3></td>
+              <td class="tdWidth"><h3>確認修改</h3></td>
+            </tr>
+            <tr>
+              <td class="tdWidth">時尚長褲</td>
+              <td class="tdWidth"><input type="text" value="NT999"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">綠色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">時尚長褲</td>
+              <td class="tdWidth"><input type="text" value="NT999"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">米色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">時尚長褲</td>
+              <td class="tdWidth"><input type="text" value="NT999"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">藍色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">時尚短褲</td>
+              <td class="tdWidth"><input type="text" value="NT699"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">褐色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">時尚短褲</td>
+              <td class="tdWidth"><input type="text" value="NT699"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">白色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">時尚短褲</td>
+              <td class="tdWidth"><input type="text" value="NT699"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">藍色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">外套</td>
+              <td class="tdWidth"><input type="text" value="NT799"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">藍色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">外套</td>
+              <td class="tdWidth"><input type="text" value="NT799"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">灰色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">外套</td>
+              <td class="tdWidth"><input type="text" value="NT799"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">綠色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">襯衫</td>
+              <td class="tdWidth"><input type="text" value="NT599"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">淺藍</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">襯衫</td>
+              <td class="tdWidth"><input type="text" value="NT599"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">深藍</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">襯衫</td>
+              <td class="tdWidth"><input type="text" value="NT599"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">粉色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">T-shirt</td>
+              <td class="tdWidth"><input type="text" value="NT299"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">藍色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">T-shirt</td>
+              <td class="tdWidth"><input type="text" value="NT299"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">綠色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">T-shirt</td>
+              <td class="tdWidth"><input type="text" value="NT299"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">白色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">皮帶</td>
+              <td class="tdWidth"><input type="text" value="NT300"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">褐色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">短襪</td>
+              <td class="tdWidth"><input type="text" value="NT200"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">黑色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="tdWidth">帆布鞋</td>
+              <td class="tdWidth"><input type="text" value="NT900"></td>
+              <td class="tdWidth"><input type="text" value="50"></td>
+              <td style="width:300px;">白色</td>
+              <td class="tdWidth">
+                <button class="delbutton">確認修改</button> <br>
+                <button class="delbutton">確認刪除</button>
+              </td>
+            </tr>
+            
+          </table>
+          <!--增加商品-->
+          <a name="addproduct"><div style="margin-top: 50px;" >
+            <h1>增加商品</h1>
+            <hr style="border-width: 3px;">
+            <form>
+              <div class="form-group">
+                <label>商品名稱</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>價格</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>庫存</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="form-group">
+                <label>內容</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>商品圖片</label> <br>
+                <input type="file">
+              </div>
+              <button class="delbutton" style="margin-right: auto;margin-left: auto;display: block;">確認增加</button>
+            </form>
+          </div></a>
+        </div>
+      </div>
+    </div>
+		</section>

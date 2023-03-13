@@ -1,0 +1,15 @@
+.ml{
+
+}
+.anmi1{
+	width: 80%;
+	display: block;
+	margin: 40px auto;
+	border-radius: 30px;
+	-webkit-filter:brightness(90%);
+}
+.anmi1:hover{
+	transition: 0.5s;
+	-webkit-filter:brightness(60%);
+}
+

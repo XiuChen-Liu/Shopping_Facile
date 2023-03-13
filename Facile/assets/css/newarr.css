@@ -1,0 +1,21 @@
+.newtitle{
+	color: black;
+	font-family: "Times New Roman";
+	font-size: 36px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-decoration: underline;
+}
+.pictrans:hover{
+	opacity : 1;
+	transform : scale(1.1);
+	transition: all 1s ease-out;
+}
+.newfont1{
+	font-family: "微軟正黑體";
+}
+
+.newfont2{
+	font-family: "微軟正黑體";
+}

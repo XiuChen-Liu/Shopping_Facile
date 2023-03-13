@@ -1,0 +1,13 @@
+body{
+	color: black;
+	font-family: "微軟正黑體";
+}
+.ratingimg{
+	width: 20px;
+	height: 20px;
+}
+.ratingbutton{
+	background-color: #E0E0E0;
+	color: black;
+	font-weight: bolder;
+}
